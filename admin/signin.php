@@ -2,24 +2,37 @@
   session_start();
   include_once "includes/config.php";
   include_once "includes/db.php";
-
+  include_once "securimage/securimage.php";
+  
+  $securimage = new Securimage();
+  
   if(isset($_POST['login'])){
+	  
+	 if ($securimage->check($_POST['captcha_code']) == false) {
+		 header("Location:signin.php?err_msg=The security code entered was incorrect!!!");
+		 exit();
+	}
+	   
     $email = mysqli_real_escape_string( $db , $_POST['email'] );
     $password = mysqli_real_escape_string( $db , $_POST['password'] );
     
-    $query = "SELECT * FROM admin WHERE email = '$email' AND password = '$password'";
-    $result = $db->query($query);
+	$result = $db->query("SELECT * FROM admin WHERE email = '$email'");
+	$row = $result->fetch_assoc();
+		
+	$password_hash = $row['password'];
 
-    if($result->num_rows == 1){
-      $_SESSION['email'] = $email;
+	if(password_verify($password, $password_hash)){
+	  $_SESSION['email'] = $email;
       header("Location:index.php");
       exit();
-    }else{
+	}
+	else{
       header("Location:signin.php?err_msg=Wrong Email or Password!!!");
       exit();
     }
-
-  }
+	
+	}
+	
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,6 +64,10 @@
         <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
         <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+		
+		<img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
+		<input type="text" name="captcha_code" size="15" maxlength="6" />
+			<a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false">[ Different Image ]</a>
      
         <button class="btn btn-lg btn-primary btn-block" type="submit" name="login">Sign in</button>
       </form>
