@@ -4,26 +4,25 @@ services:
         build: .
         ports: 
             - "8002:80"
-            - "4432:443"
         volumes:
             - ./admin:/var/www/html/
             - ./admin/docker/apache/var/log/apache2:/var/log/apache2
         links:
             - db
         networks:
-            - default
+            - backend
     www:
         build: .
         ports: 
             - "8001:80"
-            - "4431:443"
         volumes:
             - ./:/var/www/html/
             - ./docker/apache/var/log/apache2:/var/log/apache2
         links:
             - db
         networks:
-            - default
+            - db_network
+            - frontend
     db:
         image: mysql:5.7
         ports: 
@@ -37,7 +36,8 @@ services:
             - ./db:/docker-entrypoint-initdb.d
             - persistent:/var/lib/mysql
         networks:
-            - default
+            - db_network
+            - backend
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
         links: 
@@ -47,6 +47,15 @@ services:
         environment:
             MYSQL_USER: user
             MYSQL_PASSWORD: test
-            MYSQL_ROOT_PASSWORD: test 
+            MYSQL_ROOT_PASSWORD: test
+        networks:
+            - backend
 volumes:
     persistent:
+networks:
+    frontend:
+        driver: bridge
+    backend:
+        driver: bridge
+    db_network:
+        driver: bridge

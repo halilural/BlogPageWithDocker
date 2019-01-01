@@ -1,0 +1,66 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.27.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 30 23:08:27.360711 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 configured -- resuming normal operations
+[Sun Dec 30 23:08:27.367684 2018] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Dec 30 23:10:09.262027 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.31.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 30 23:11:20.578220 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 configured -- resuming normal operations
+[Sun Dec 30 23:11:20.580980 2018] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.30.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 30 23:11:21.013193 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 configured -- resuming normal operations
+[Sun Dec 30 23:11:21.013658 2018] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Dec 30 23:11:53.469061 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Dec 30 23:11:53.498468 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.48.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 30 23:12:34.510453 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 configured -- resuming normal operations
+[Sun Dec 30 23:12:34.520064 2018] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Dec 30 23:14:59.849012 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.64.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 30 23:15:31.019251 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 configured -- resuming normal operations
+[Sun Dec 30 23:15:31.020965 2018] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Dec 30 23:17:22.992398 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.128.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 30 23:18:02.335911 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 configured -- resuming normal operations
+[Sun Dec 30 23:18:02.338540 2018] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Dec 30 23:18:35.894162 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.176.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 30 23:23:16.401773 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 configured -- resuming normal operations
+[Sun Dec 30 23:23:16.406572 2018] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Dec 30 23:23:27.034465 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Dec 30 23:27:22.651320 2018] [ssl:warn] [pid 1] AH01906: 172.18.0.2:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Dec 30 23:27:22.652543 2018] [ssl:warn] [pid 1] AH01909: 172.18.0.2:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 30 23:27:22.816203 2018] [ssl:warn] [pid 1] AH01906: 172.18.0.2:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Dec 30 23:27:22.816826 2018] [ssl:warn] [pid 1] AH01909: 172.18.0.2:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 30 23:27:22.833057 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Sun Dec 30 23:27:22.835712 2018] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Dec 30 23:29:03.088841 2018] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Sun Dec 30 23:29:54.039310 2018] [ssl:warn] [pid 1] AH01906: 172.19.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Dec 30 23:29:54.040189 2018] [ssl:warn] [pid 1] AH01909: 172.19.0.3:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sun Dec 30 23:29:54.215911 2018] [ssl:warn] [pid 1] AH01906: 172.19.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Dec 30 23:29:54.217858 2018] [ssl:warn] [pid 1] AH01909: 172.19.0.3:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 30 23:29:54.236018 2018] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Sun Dec 30 23:29:54.236800 2018] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jan 01 13:46:56.316347 2019] [ssl:warn] [pid 1] AH01906: 172.18.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 13:46:56.334432 2019] [ssl:warn] [pid 1] AH01909: 172.18.0.3:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Jan 01 13:46:57.581204 2019] [ssl:warn] [pid 1] AH01906: 172.18.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 13:46:57.581878 2019] [ssl:warn] [pid 1] AH01909: 172.18.0.3:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 01 13:46:57.599282 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Tue Jan 01 13:46:57.599754 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jan 01 14:25:55.898481 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Tue Jan 01 14:39:50.597717 2019] [ssl:warn] [pid 1] AH01906: 172.19.0.5:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 14:39:50.598375 2019] [ssl:warn] [pid 1] AH01909: 172.19.0.5:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Jan 01 14:39:50.764569 2019] [ssl:warn] [pid 1] AH01906: 172.19.0.5:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 14:39:50.765409 2019] [ssl:warn] [pid 1] AH01909: 172.19.0.5:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 01 14:39:50.781464 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Tue Jan 01 14:39:50.781942 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jan 01 15:06:27.502331 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Tue Jan 01 15:07:01.244744 2019] [ssl:warn] [pid 1] AH01906: 172.20.0.4:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 15:07:01.245520 2019] [ssl:warn] [pid 1] AH01909: 172.20.0.4:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.4. Set the 'ServerName' directive globally to suppress this message
+[Tue Jan 01 15:07:01.361961 2019] [ssl:warn] [pid 1] AH01906: 172.20.0.4:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 15:07:01.362331 2019] [ssl:warn] [pid 1] AH01909: 172.20.0.4:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 01 15:07:01.369338 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Tue Jan 01 15:07:01.370410 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
