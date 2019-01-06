@@ -12,7 +12,16 @@
 		 header("Location:signin.php?err_msg=The security code entered was incorrect!!!");
 		 exit();
 	}
+
+// Regenerating session id in every attemps
+
+	session_regenerate_id(true);	
+
+// First, preventing cross site scripting using htmlspecialchars command
 	   
+	$email = htmlspecialchars($_POST['email']);
+	$password = htmlspecialchars( $_POST['password']);
+	
     $email = mysqli_real_escape_string( $db , $_POST['email'] );
     $password = mysqli_real_escape_string( $db , $_POST['password'] );
     
@@ -56,7 +65,9 @@
     <div class="container">
 
       <form class="form-signin" method="POST">
-        <?php if(isset($_GET['err_msg'])){
+        <?php 
+		$_GET['err_msg'] = htmlspecialchars($_GET['err_msg']);
+		if(isset($_GET['err_msg'])){
           echo "<div class='alert alert-danger'>$_GET[err_msg]</div>";
         } ?>
         <h2 class="form-signin-heading">Please sign in</h2>

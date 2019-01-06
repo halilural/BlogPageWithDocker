@@ -52,3 +52,46 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Tue Jan 01 15:07:00.223494 2019] [ssl:warn] [pid 1] AH01909: 172.20.0.3:443:0 server certificate does NOT include an ID which matches the server name
 [Tue Jan 01 15:07:00.240117 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
 [Tue Jan 01 15:07:00.241155 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jan 01 15:41:48.609698 2019] [ssl:warn] [pid 1] AH01906: 172.21.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 15:41:48.610219 2019] [ssl:warn] [pid 1] AH01909: 172.21.0.3:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Jan 01 15:41:48.717983 2019] [ssl:warn] [pid 1] AH01906: 172.21.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 15:41:48.719264 2019] [ssl:warn] [pid 1] AH01909: 172.21.0.3:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 01 15:41:48.733626 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Tue Jan 01 15:41:48.734044 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jan 01 15:59:39.817019 2019] [mpm_prefork:notice] [pid 1] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Jan 01 15:59:40.113040 2019] [ssl:warn] [pid 1] AH01906: 172.21.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 15:59:40.113387 2019] [ssl:warn] [pid 1] AH01909: 172.21.0.3:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 01 15:59:40.114529 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Tue Jan 01 15:59:40.114757 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jan 01 16:05:02.992593 2019] [mpm_prefork:notice] [pid 1] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.21.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Jan 01 16:05:03.186204 2019] [ssl:warn] [pid 1] AH01906: 172.21.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 16:05:03.186512 2019] [ssl:warn] [pid 1] AH01909: 172.21.0.3:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 01 16:05:03.187492 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Tue Jan 01 16:05:03.187701 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jan 01 16:06:07.657888 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Tue Jan 01 16:25:49.074258 2019] [ssl:warn] [pid 1] AH01906: 172.25.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 16:25:49.074817 2019] [ssl:warn] [pid 1] AH01909: 172.25.0.3:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Jan 01 16:25:49.310484 2019] [ssl:warn] [pid 1] AH01906: 172.25.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Jan 01 16:25:49.311311 2019] [ssl:warn] [pid 1] AH01909: 172.25.0.3:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 01 16:25:49.328548 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Tue Jan 01 16:25:49.332334 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Jan 01 16:49:02.207220 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Fri Jan 04 18:21:40.789857 2019] [ssl:warn] [pid 1] AH01906: 172.18.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Jan 04 18:21:40.814143 2019] [ssl:warn] [pid 1] AH01909: 172.18.0.3:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Jan 04 18:21:41.843761 2019] [ssl:warn] [pid 1] AH01906: 172.18.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Jan 04 18:21:41.844377 2019] [ssl:warn] [pid 1] AH01909: 172.18.0.3:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 04 18:21:41.897489 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Fri Jan 04 18:21:41.898797 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Jan 05 18:00:10.619295 2019] [ssl:warn] [pid 1] AH01906: 172.18.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jan 05 18:00:10.653985 2019] [ssl:warn] [pid 1] AH01909: 172.18.0.3:443:0 server certificate does NOT include an ID which matches the server name
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Jan 05 18:00:11.935334 2019] [ssl:warn] [pid 1] AH01906: 172.18.0.3:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Jan 05 18:00:11.935447 2019] [ssl:warn] [pid 1] AH01909: 172.18.0.3:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jan 05 18:00:11.939254 2019] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) PHP/7.1.2 OpenSSL/1.0.1t configured -- resuming normal operations
+[Sat Jan 05 18:00:11.940145 2019] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Jan 06 10:31:14.293035 2019] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
